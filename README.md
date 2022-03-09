@@ -15,7 +15,7 @@ Laravel-vue-demo is a tutorial code for beginners to check vue.js implementation
 - Clone the repository.
 - Run `composer install` to install laravel dependancies.
 - Rename `.env-example` to `.env`.
-- Configure your database credentials.
+- Configure your database credentials in `.env` file.
 - Run `php artisan key:generate` to generate app-key.
 - Run `php artisan migrate` to run migrations and setup your database.
 - Run `npm install` to install vue.js dependancies.
