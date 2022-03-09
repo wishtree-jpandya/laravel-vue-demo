@@ -1,4 +1,4 @@
-### Laravel-vue-demo
+# Laravel-vue-demo
 
 ## About Laravel-vue-demo
 
