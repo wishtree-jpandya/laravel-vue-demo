@@ -15,7 +15,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $products = Product::all()->toArray();
+        $products = Product::orderBy('created_at', 'DESC')->paginate(20)->toArray();
         return array_reverse($products);      
     }
 

@@ -2,7 +2,7 @@
     <div>
         <h3 class="text-center">Create Product</h3>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 form-container">
                 <form @submit.prevent="addProduct">
                     <div class="form-group">
                         <label>Name</label>

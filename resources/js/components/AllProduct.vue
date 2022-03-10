@@ -5,7 +5,7 @@
         <table class="table">
             <thead>
             <tr>
-                <th>ID</th>
+                <th>Sr.No</th>
                 <th>Name</th>
                 <th>Detail</th>
                 <th>Price</th>
@@ -13,8 +13,8 @@
             </tr>
             </thead>
             <tbody>
-            <tr v-for="product in products" :key="product.id">
-                <td>{{ product.id }}</td>
+            <tr v-for="(product, index) in products.data" :key="product.id">
+                <td>{{ index+1 }}</td>
                 <td>{{ product.name }}</td>
                 <td>{{ product.detail }}</td>
                 <td>{{ product.price }}</td>

@@ -4,3 +4,7 @@
 .label-danger {
     color: red;
 }
+.form-container {
+    margin: auto;
+    position: relative;
+}

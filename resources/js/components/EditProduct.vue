@@ -2,7 +2,7 @@
     <div>
         <h3 class="text-center">Edit Product</h3>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 form-container">
                 <form @submit.prevent="updateProduct">
                     <div class="form-group">
                         <label>Name</label>
