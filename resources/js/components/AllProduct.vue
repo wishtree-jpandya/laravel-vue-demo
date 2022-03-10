@@ -50,8 +50,8 @@
                     this.axios
                         .delete(`http://localhost:8000/api/products/${id}`)
                         .then(response => {
-                            let i = this.products.map(data => data.id).indexOf(id);
-                            this.products.splice(i, 1)
+                            let i = this.products.data.map(data => data.id).indexOf(id);
+                            this.products.data.splice(i, 1)
                         });
                 }
             }

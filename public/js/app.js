@@ -5341,11 +5341,11 @@ __webpack_require__.r(__webpack_exports__);
 
       if (confirm("Do you really want to delete?")) {
         this.axios["delete"]("http://localhost:8000/api/products/".concat(id)).then(function (response) {
-          var i = _this2.products.map(function (data) {
+          var i = _this2.products.data.map(function (data) {
             return data.id;
           }).indexOf(id);
 
-          _this2.products.splice(i, 1);
+          _this2.products.data.splice(i, 1);
         });
       }
     }
